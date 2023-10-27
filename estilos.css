@@ -1,0 +1,107 @@
+* {
+    padding: 0px;
+    font-style: unset;
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(0,0,25);
+}
+main {
+    max-width: 90%;
+    margin: auto;
+}
+figure{
+    margin: auto;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(240, 93, 80);
+    font-size: 50px;
+}
+h1:hover {
+    color: rgba(240,93,80,0.5);
+}
+nav ul li {
+    color: rgb(0, 0, 25);
+    list-style: none;
+    margin-bottom: 5px;
+}
+nav ul li :hover{
+    color: rgba(0, 0, 25, 0.5);
+}
+nav ul li a.active {
+    font-weight:bold;
+    font-style: italic;
+}
+nav {
+    margin-bottom: 100px;
+}
+article section:first-child, header{
+    text-align: center;
+    
+    margin: auto;
+    
+}
+article section:first-child h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    letter-spacing: -2px; /* Reduce el espaciado entre letras */
+}
+h3{
+    font-size: 25px;
+}
+article section:first-child p {
+    font-size: 120%;
+    max-width: 64%;
+    margin: auto;
+    line-height: 1.7em; /* Aumenta espacio entre líneas*/
+}
+article section:first-child h4 {
+    font-size: 26px;
+    font-weight: unset;
+    margin-bottom: 20px;
+}
+article section:first-child time {
+    font-size: 70% ;
+    
+}
+article section:first-child {
+    margin-bottom: 50px;
+}
+figcaption {
+    font-size: 70%;
+    margin: 15px;
+    text-align: center;
+}
+
+#pDestacado {
+    font-weight: bold;
+    max-width: 52%;
+    line-height: 1.7em;
+}
+
+.resaltadoGris{
+    color: rgba(0, 0, 25, 0.5);
+}
+
+.nombresNobel{
+    color: rgb(240, 93, 80);
+}
+em a {
+    color: rgb(240, 93, 80);
+}
+
+.enlaceTexto :hover {
+    color: rgba(240, 93, 80, 0.5);
+}
+
+footer {
+    background-color: rgb(0,0,25);
+    color: rgb(255, 255, 255);
+
+}
+small :hover {
+    color: rgb(240, 93, 80);
+}
