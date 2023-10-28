@@ -9,16 +9,24 @@ body{
     color: rgb(0,0,25);
 }
 main {
-    max-width: 90%;
+    max-width: 85%;
     margin: auto;
 }
 figure{
     margin: auto;
 }
+figcaption {
+    font-size: 70%;
+    margin-top: 22px;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(240, 93, 80);
-    font-size: 50px;
+    font-size: 55px;
+    margin-bottom: 30px;
 }
 h1:hover {
     color: rgba(240,93,80,0.5);
@@ -27,6 +35,7 @@ nav ul li {
     color: rgb(0, 0, 25);
     list-style: none;
     margin-bottom: 5px;
+    font-size: large;
 }
 nav ul li :hover{
     color: rgba(0, 0, 25, 0.5);
@@ -49,37 +58,48 @@ article section:first-child h2{
     margin-bottom: 20px;
     letter-spacing: -2px; /* Reduce el espaciado entre letras */
 }
+
 h3{
-    font-size: 25px;
+    font-size: 28px;
+    margin-top: 26px;
+    margin-bottom: 25px;
 }
 article section:first-child p {
-    font-size: 120%;
-    max-width: 64%;
+    font-size: 125%;
+    max-width: 72%;
     margin: auto;
-    line-height: 1.7em; /* Aumenta espacio entre líneas*/
+    line-height: 2em; /* Aumenta espacio entre líneas*/
 }
 article section:first-child h4 {
-    font-size: 26px;
+    font-size: 28px;
     font-weight: unset;
     margin-bottom: 20px;
 }
 article section:first-child time {
-    font-size: 70% ;
+    font-size: 75% ;
     
 }
 article section:first-child {
     margin-bottom: 50px;
 }
-figcaption {
-    font-size: 70%;
-    margin: 15px;
+cite {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+p {
+    line-height: 1.63em;
+}
+
+#video {
     text-align: center;
 }
 
-#pDestacado {
+#pDestacado { /*Párrafo justo debajo de la imagen*/
     font-weight: bold;
-    max-width: 52%;
-    line-height: 1.7em;
+    max-width: 71%;
+    line-height: 1.6em;
+    font-size: 21px;
 }
 
 .resaltadoGris{
@@ -89,7 +109,7 @@ figcaption {
 .nombresNobel{
     color: rgb(240, 93, 80);
 }
-em a {
+span a {
     color: rgb(240, 93, 80);
 }
 
