@@ -47,13 +47,13 @@ nav ul li a.active {
 nav {
     margin-bottom: 100px;
 }
-article section:first-child, header{
+article header, header{
     text-align: center;
     
     margin: auto;
     
 }
-article section:first-child h2{
+article header h2{
     font-size: 50px;
     margin-bottom: 20px;
     letter-spacing: -2px; /* Reduce el espaciado entre letras */
@@ -64,22 +64,22 @@ h3{
     margin-top: 26px;
     margin-bottom: 25px;
 }
-article section:first-child p {
+article header p {
     font-size: 125%;
     max-width: 72%;
     margin: auto;
     line-height: 2em; /* Aumenta espacio entre líneas*/
 }
-article section:first-child h4 {
+article header h4 {
     font-size: 28px;
     font-weight: unset;
     margin-bottom: 20px;
 }
-article section:first-child time {
+article header time {
     font-size: 75% ;
     
 }
-article section:first-child {
+article header {
     margin-bottom: 50px;
 }
 cite {
@@ -127,6 +127,7 @@ q::after {
 span a {
     color: rgb(240, 93, 80);
 }
+
 
 .enlaceTexto :hover {
     color: rgba(240, 93, 80, 0.5);
