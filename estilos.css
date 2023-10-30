@@ -28,7 +28,7 @@ h1 {
     font-size: 55px;
     margin-bottom: 30px;
 }
-h1:hover {
+h1:hover, .enlaceTexto :hover, .nombresNobel:hover ,.nombresNobel2:hover {
     color: rgba(240,93,80,0.5);
 }
 nav ul li {
@@ -142,9 +142,10 @@ q::after {
 
 
 
-.gris em{
+.gris em, .grisMotivacion em{
     color: rgba(0, 0, 25, 0.5);
     font-size: 25px;
+    font-weight: bold;
 }
 
 .nombresNobel{
@@ -152,9 +153,28 @@ q::after {
     font-weight: initial;
     font-size: 19px;
 }
-.nombresNobel::before {
+.nombresNobel::before, .nombreMotivacion::before{
     content: ": ";
     color: black;
+}
+.nombresNobel2 {
+    color: rgb(240, 93, 80);
+    font-weight: bold;
+    font-size: 22px;
+}
+.grisMotivacion {
+    max-width: 91%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+dt {
+    margin: auto;
+    max-width: 97%;
+}
+dd {
+    font-size: 19px;
 }
 
 #pfinal {
@@ -167,10 +187,6 @@ span a {
     color: rgb(240, 93, 80);
 }
 
-
-.enlaceTexto :hover {
-    color: rgba(240, 93, 80, 0.5);
-}
 #final {
     margin-bottom: 40px;
 }
