@@ -82,6 +82,13 @@ article header time {
 article header {
     margin-bottom: 50px;
 }
+.headerTime {
+    font-size: 20px;
+}
+#headerP {
+    font-size: 11px;
+    margin-top: 20px;
+}
 cite {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
@@ -117,13 +124,45 @@ q::after {
     font-size: 21px;
 }
 
-.resaltadoGris{
+.gris {
+    list-style-type: square;
+    color: rgb(0,0,25);
+    max-width: 75%;
+    margin: auto;
+    font-size: 17px;
+}
+
+#resaltadoGris{
+    max-width: 52%;
+    margin: auto;
     color: rgba(0, 0, 25, 0.5);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+.gris em{
+    color: rgba(0, 0, 25, 0.5);
+    font-size: 25px;
 }
 
 .nombresNobel{
     color: rgb(240, 93, 80);
+    font-weight: initial;
+    font-size: 19px;
 }
+.nombresNobel::before {
+    content: ": ";
+    color: black;
+}
+
+#pfinal {
+    text-align: center;
+    font-size: 15px;
+}
+
+
 span a {
     color: rgb(240, 93, 80);
 }
@@ -144,6 +183,7 @@ footer {
     margin-top: 80px;
     padding: 60px;
     max-width: 100%;
+    line-height: 2em;
 }
 small :hover {
     color: rgb(240, 93, 80);
